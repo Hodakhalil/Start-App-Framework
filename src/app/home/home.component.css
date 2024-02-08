@@ -1,0 +1,15 @@
+section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  height: 100vh;
+  background-color: #1abc9c;
+  color: #fff;
+}
+.line {
+  width: 70px;
+  height: 5px;
+  background-color: black;
+}

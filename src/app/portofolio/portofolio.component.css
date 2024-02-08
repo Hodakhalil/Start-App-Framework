@@ -1,0 +1,40 @@
+.portfolio-item {
+  position: relative;
+}
+
+.portfolio-item-layer {
+  background-color: #1abc9cd3;
+  position: absolute;
+  top: 0%;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  opacity: 0;
+  cursor: zoom-in;
+  transition: opacity 0.5s;
+}
+
+.portfolio-item-layer i {
+  font-size: 80px;
+}
+
+.portfolio-item:hover .portfolio-item-layer {
+  opacity: 1;
+}
+
+.modal-body {
+  cursor: auto;
+}
+
+.modal-content {
+  background-color: transparent;
+  border: none;
+  transform: translateY(10%);
+}
+
+.modal-body img {
+  position: relative;
+}
